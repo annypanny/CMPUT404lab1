@@ -2,6 +2,6 @@
 
 import requests
 
-response = requests.post("http://ccid­-eddieantonio.rhcloud.com/xpan")
+response = requests.get("https://github.com/annypanny/CMPUT404lab1/raw/master/lab1.py")
 
-print response.status_code
+print response.text
